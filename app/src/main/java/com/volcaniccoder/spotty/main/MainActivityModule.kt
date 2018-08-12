@@ -7,5 +7,5 @@ import dagger.Provides
 class MainActivityModule {
 
     @Provides
-    fun provideViewModel() = MainViewModel()
+    fun provideViewModelFactory() = MainViewModelFactory()
 }

@@ -1,4 +1,7 @@
 package com.volcaniccoder.spotty.main
 
-class MainViewModel {
+import android.arch.lifecycle.ViewModel
+
+class MainViewModel : ViewModel() {
+
 }

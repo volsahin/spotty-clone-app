@@ -24,5 +24,4 @@ class SpottyApp: Application() , HasActivityInjector {
     }
 
     override fun activityInjector(): AndroidInjector<Activity> = activityDispatchingAndroidInjector
-
 }

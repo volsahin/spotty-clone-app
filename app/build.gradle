@@ -39,4 +39,12 @@ dependencies {
     implementation "com.google.dagger:dagger-android-support:$rootProject.daggerVersion" // if you use the support libraries
     kapt "com.google.dagger:dagger-compiler:$rootProject.daggerVersion"
     kapt "com.google.dagger:dagger-android-processor:$rootProject.daggerVersion"
+
+    // ViewModel and LiveData
+    implementation "android.arch.lifecycle:extensions:$rootProject.lifecycle_version"
+    kapt "android.arch.lifecycle:compiler:$rootProject.lifecycle_version"
+    implementation "android.arch.lifecycle:reactivestreams:$rootProject.lifecycle_version"
+    testImplementation "android.arch.core:core-testing:$rootProject.lifecycle_version"
+
+
 }
