@@ -3,4 +3,17 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="spottyBlack">#191414</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="spottyGreen">#1db954</color>
+    <color name="spottySandSolid">#ecebe8</color>
+    <color name="spottyGreySolid">#828282</color>
+    <color name="spottyToolbarColor">#222327</color>
+    <color name="spottySecondToolbarColor">#1C1C1E</color>
+    <color name="spottyBackgroundColor">#121315</color>
+    <color name="spottyBottomBarColor">#222328</color>
+    <color name="spottyDisabledTextColor">#888888</color>
+    <color name="spottyPressedTextColor">#444444</color>
 </resources>

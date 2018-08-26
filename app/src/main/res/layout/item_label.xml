@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="item"
+            type="com.volcaniccoder.spotty.helper.commonmusiclist.CommonMusicItem" />
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/item_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp">
+
+        <ImageView
+            android:id="@+id/label_image"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:background="@drawable/ic_launcher_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/ic_launcher_background"
+            android:src="@{item.icon}"/>
+
+        <TextView
+            android:id="@+id/label_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/label_image"
+            app:layout_constraintStart_toStartOf="@id/label_image"
+            app:layout_constraintTop_toBottomOf="@id/label_image"
+            tools:text="Header"
+            android:text="@{item.title}"/>
+
+        <TextView
+            android:id="@+id/label_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/bottomifyPassiveColor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/label_image"
+            app:layout_constraintStart_toStartOf="@id/label_image"
+            app:layout_constraintTop_toBottomOf="@id/label_title"
+            tools:text="Subtitle"
+            android:text="@{item.body}"/>
+
+    </android.support.constraint.ConstraintLayout>
+</layout>
