@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Spotty</string>
+    <string name="home">Ana sayfa</string>
+    <string name="browse">Gözat</string>
+    <string name="search">Ara</string>
+    <string name="radio">Radyo</string>
+    <string name="your_library">Kitaplığın</string>
+
+    <string name="for_you">Senin için hazırlandı</string>
+    <string name="playlists">Çalma Listeleri</string>
+    <string name="stations">İstasyonlar</string>
+    <string name="songs">Şarkılar</string>
+    <string name="albums">Albümler</string>
+    <string name="artists">Sanatçılar</string>
+    <string name="podcasts">Podcast\'ler</string>
+
+    <string name="recently_played">Yakınlarda Çalınanlar</string>
+    <string name="filter">Filtrele</string>
+    <string name="header">Başlık</string>
+    <string name="subtitle">AltBaşlık</string>
+    <string name="shuffle_play">Karışık Çaly</string>
+    <string name="sunday_message">Nasıl bir Pazar istersen...</string>
+    <string name="made_for_user">github.com/volsahin İçin Derlendi</string>
+    <string name="get_better_recommendation">Daha çok dinledikçe daha iyi tavsiyeler al.</string>
+    <string name="jump_back_in">Son Günlerde En Çok Dinlediklerin</string>
+    <string name="recently_listened_music">Son birkaç ay içerisinde en çok dinlediğin müzikler</string>
+
+</resources>

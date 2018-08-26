@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="item"
+            type="com.volcaniccoder.spotty.library.SingleRowItem" />
+
+        <variable
+            name="listener"
+            type="com.volcaniccoder.spotty.library.LibraryTopCategoriesAdapter.OnClickListener"/>
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:onClick="@{(v)-> listener.onItemClicked(v,item)}"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/library_categories_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            tools:src="@mipmap/ic_launcher"
+            android:src="@{item.drawable}"
+            android:tint="@color/bottomifyPassiveColor"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/library_categories_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/your_library"
+            android:text="@{item.title}"
+            app:layout_constraintBottom_toBottomOf="@id/library_categories_image"
+            app:layout_constraintStart_toEndOf="@id/library_categories_image"
+            app:layout_constraintTop_toTopOf="@id/library_categories_image" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</layout>

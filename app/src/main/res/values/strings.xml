@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">Spotty</string>
+    <string name="home">Home</string>
+    <string name="browse">Browse</string>
+    <string name="search">Search</string>
+    <string name="radio">Radio</string>
+    <string name="your_library">Your Library</string>
+
+    <string name="for_you">For You</string>
+    <string name="playlists">Playlists</string>
+    <string name="stations">Stations</string>
+    <string name="songs">Songs</string>
+    <string name="albums">Albums</string>
+    <string name="artists">Artists</string>
+    <string name="podcasts">Podcasts</string>
+
+    <string name="recently_played">Recently played</string>
+    <string name="filter">Filter</string>
+    <string name="header">Header</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="shuffle_play">Shuffle Play</string>
+    <string name="sunday_message">Enjoy your Monday...</string>
+    <string name="made_for_user">Made For github.com/volsahin</string>
+    <string name="get_better_recommendation">Get better recommendations the more you listen</string>
+    <string name="jump_back_in">Jump Back In</string>
+    <string name="recently_listened_music">Your top listens from the past few moths</string>
+
 </resources>
